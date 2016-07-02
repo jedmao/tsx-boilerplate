@@ -13,13 +13,23 @@ export default {
 	debug: true,
 	devtool: 'source-map',
 	module: {
+		preLoaders: [
+			{
+				test: /\.tsx?$/,
+				loader: 'tslint'
+			}
+		],
 		loaders: [
 			{
 				test: /\.tsx?$/,
-				loaders: ['ts-loader'],
+				loader: 'ts-loader',
 				exclude: [/node_modules/, nodeModulesPath]
 			}
 		]
+	},
+	tslint: {
+		emitErrors: true,
+		failOnHint: true,
 	},
 	externals: {
 		// don't bundle the 'react' npm package with our bundle.js

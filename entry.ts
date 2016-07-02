@@ -1,2 +1,2 @@
-import Foo from "./src/Foo";
-var foo = new Foo({ name: "Ally" });
+import Foo from './src/Foo';
+new Foo({ name: 'Ally' });
