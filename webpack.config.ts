@@ -21,6 +21,10 @@ export default {
 		],
 		loaders: [
 			{
+				test: /\.json$/,
+				loader: 'json'
+			},
+			{
 				test: /\.tsx?$/,
 				loader: 'ts-loader',
 				exclude: [/node_modules/, nodeModulesPath]
@@ -35,6 +39,6 @@ export default {
 	plugins: [],
 	resolve: {
 		root: [path.resolve('./src')],
-		extensions: ['', '.ts', '.tsx', '.js']
+		extensions: ['', '.ts', '.tsx', '.js', '.json']
 	}
 };
