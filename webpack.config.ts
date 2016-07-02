@@ -1,8 +1,8 @@
-var path = require('path');
-var nodeModulesPath = path.resolve(__dirname, 'node_modules');
-var webpack = require('webpack');
+import * as path from 'path';
+const nodeModulesPath = path.resolve(__dirname, 'node_modules');
+const webpack = require('webpack');
 
-module.exports = {
+export default {
   entry: {
     bundle: ['./entry'],
   },
