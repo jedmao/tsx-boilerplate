@@ -1,6 +1,5 @@
-// a special import statement to require node modules...
-import assign = require("object-assign");
-import Bar from "./Bar";
+import { assign } from 'lodash';
+import Bar from './Bar';
 
 export default class Foo {
 

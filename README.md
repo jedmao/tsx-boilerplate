@@ -58,61 +58,8 @@ Just start coding from `entry.ts` and `src/...` without worring anything!
 
 Sample commands:
 
-    typings install dt~d3 --save --global
-    typings install dt~jquery --save --global
-    typings install dt~mocha --save --global
+    typings install dt~lodash --save --global
 
 ### Generate typedoc
 
     typedoc --target es6 --out doc typings/index.d.ts src
-
-
-### Troubleshooting
-
-#### Cannot find module '...'
-
-For example, you encountered this error message:
-
-    Cannot find module 'object-assign'
-
-Simply run:
-
-    npm install object-assign --save
-    typings install object-assign --save
-
-Then re-compile, it should work.
-
-
-### FAQ
-
-#### Why use `import assign = require("object-assign");` instead of es6 import?
-
-This is because TypeScript can't properly loads node modules with es6 import
-syntax with non-default export modules. for example:
-
-    import assign from "object-assign";
-    assign({}, ...);
-
-The assign call above will be converted to:
-
-    assign.default({}, ...);
-
-However object-assign doesn't export "exports.default", this causes error in the runtime.
-
-With the suggested es6 import statement:
-
-    import * as assign from "object-assign";
-    assign({}, ...);
-
-Occurs error like:
-
-    error TS2497: Module ''object-assign'' resolves to a non-module entity and
-    cannot be imported using this construct.
-
-This is because `object-assign` exports the function using `module.exports = {function}`.
-
-```js
-module.exports = shouldUseNative() ? Object.assign : function (target, source) {
-```
-
-See also: https://github.com/Microsoft/TypeScript/issues/7518
