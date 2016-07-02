@@ -3,7 +3,6 @@ node_js:
 - "node"
 - "4"
 env:
-  - WEBPACK_CONFIG=webpack.config.es6-to-es5.js
   - WEBPACK_CONFIG=webpack.config.js
 install:
 - npm install typescript@next -g
