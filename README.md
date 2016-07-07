@@ -14,6 +14,7 @@
 - [Redux]
 - [CSS Modules]
 - [PostCSS]
+- [AVA]
 
 It's always time consuming to combine all components together and make things
 work well.
@@ -76,7 +77,8 @@ Sample commands:
     typedoc --target es6 --out doc typings/index.d.ts src
 
 
-[CSS Modules]: https://github.com/css-modules/css-modules
+[AVA]: https://github.com/avajs/ava#readme
+[CSS Modules]: https://github.com/css-modules/css-modules#readme
 [Express]: http://expressjs.com/
 [PostCSS]: http://postcss.org/
 [React]: https://facebook.github.io/react/
