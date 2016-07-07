@@ -1,8 +1,8 @@
-# tsx-boilerplate
+# tsx-redux-postcss-starter
 
-TypeScript/React Boilerplate
+[TypeScript][]/[React][] [Redux][] [PostCSS][] Starter Kit
 
-[![Build Status](https://travis-ci.org/jedmao/tsx-boilerplate.svg?branch=master)](https://travis-ci.org/jedmao/tsx-boilerplate)
+[![Build Status](https://travis-ci.org/jedmao/tsx-redux-postcss-starter.svg?branch=master)](https://travis-ci.org/jedmao/tsx-redux-postcss-starter)
 
 It's always time consuming to combine all components together and make things
 work well.
@@ -63,3 +63,9 @@ Sample commands:
 ### Generate typedoc
 
     typedoc --target es6 --out doc typings/index.d.ts src
+
+
+TypeScript: http://www.typescriptlang.org/
+React: https://facebook.github.io/react/
+Redux: http://redux.js.org/
+PostCSS: http://postcss.org/
