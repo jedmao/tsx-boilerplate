@@ -1,20 +1,20 @@
 # tsx-redux-postcss-starter
 
-[TypeScript]/[React] [Redux] [PostCSS] Starter Kit
+[TypeScript][]/[React][] [Redux][] [PostCSS][] Starter Kit
 
 [![Build Status](https://travis-ci.org/jedmao/tsx-redux-postcss-starter.svg?branch=master)](https://travis-ci.org/jedmao/tsx-redux-postcss-starter)
 
 ### Supported stack technologies
-- [Express]
-- [TypeScript]
-- [Webpack]
+- [Express][]
+- [TypeScript][]
+- [Webpack][]
 
 ### On the Roadmap
-- [React]
-- [Redux]
-- [CSS Modules]
-- [PostCSS]
-- [AVA]
+- [React][]
+- [Redux][]
+- [CSS Modules][]
+- [PostCSS][]
+- [AVA][]
 
 It's always time consuming to combine all components together and make things
 work well.

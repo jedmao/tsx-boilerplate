@@ -1,17 +1,17 @@
 {
-  "name": "tsx-boilerplate",
+  "name": "tsx-redux-postcss-starter",
   "version": "0.0.1",
   "description": "TypeScript/React Boilerplate",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jedmao/tsx-boilerplate.git"
+    "url": "git+https://github.com/jedmao/tsx-redux-postcss-starter.git"
   },
   "author": "Jed Mao <jedmao@outlook.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jedmao/tsx-boilerplate/issues"
+    "url": "https://github.com/jedmao/tsx-redux-postcss-starter/issues"
   },
-  "homepage": "https://github.com/jedmao/tsx-boilerplate#readme",
+  "homepage": "https://github.com/jedmao/tsx-redux-postcss-starter#readme",
   "keywords": [
     "ava",
     "boilerplate",
