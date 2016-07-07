@@ -12,6 +12,9 @@
     "url": "https://github.com/jedmao/tsx-boilerplate/issues"
   },
   "homepage": "https://github.com/jedmao/tsx-boilerplate#readme",
+  "scripts": {
+    "start": "ts-node server.ts"
+  },
   "devDependencies": {
     "async": "^2.0.0-rc.6",
     "file-loader": "^0.9.0",
@@ -28,6 +31,8 @@
     "webpack-stream": "^3.2.0"
   },
   "dependencies": {
-    "lodash": "^4.13.1"
+    "express": "^4.14.0",
+    "lodash": "^4.13.1",
+    "react": "^15.2.0"
   }
 }
