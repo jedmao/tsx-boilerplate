@@ -12,6 +12,18 @@
     "url": "https://github.com/jedmao/tsx-boilerplate/issues"
   },
   "homepage": "https://github.com/jedmao/tsx-boilerplate#readme",
+  "keywords": [
+    "boilerplate",
+    "css",
+    "express",
+    "kit",
+    "postcss",
+    "react",
+    "redux",
+    "starter",
+    "typescript",
+    "webpack"
+  ],
   "scripts": {
     "start": "ts-node server.ts",
     "postinstall": "typings install"

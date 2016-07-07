@@ -1,8 +1,19 @@
 # tsx-redux-postcss-starter
 
-[TypeScript][]/[React][] [Redux][] [PostCSS][] Starter Kit
+[TypeScript]/[React] [Redux] [PostCSS] Starter Kit
 
 [![Build Status](https://travis-ci.org/jedmao/tsx-redux-postcss-starter.svg?branch=master)](https://travis-ci.org/jedmao/tsx-redux-postcss-starter)
+
+### Supported stack technologies
+- [Express]
+- [TypeScript]
+- [Webpack]
+
+### On the Roadmap
+- [React]
+- [Redux]
+- [CSS Modules]
+- [PostCSS]
 
 It's always time consuming to combine all components together and make things
 work well.
@@ -65,7 +76,10 @@ Sample commands:
     typedoc --target es6 --out doc typings/index.d.ts src
 
 
-TypeScript: http://www.typescriptlang.org/
-React: https://facebook.github.io/react/
-Redux: http://redux.js.org/
-PostCSS: http://postcss.org/
+[CSS Modules]: https://github.com/css-modules/css-modules
+[Express]: http://expressjs.com/
+[PostCSS]: http://postcss.org/
+[React]: https://facebook.github.io/react/
+[Redux]: http://redux.js.org/
+[TypeScript]: http://www.typescriptlang.org/
+[Webpack]: https://webpack.github.io/
