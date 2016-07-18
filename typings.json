@@ -10,6 +10,7 @@
     "express-serve-static-core": "registry:dt/express-serve-static-core#0.0.0+20160701212727",
     "mime": "registry:dt/mime#0.0.0+20160316155526",
     "react": "registry:dt/react#0.14.0+20160630100702",
-    "serve-static": "registry:dt/serve-static#0.0.0+20160606155157"
+    "serve-static": "registry:dt/serve-static#0.0.0+20160606155157",
+    "webpack": "registry:dt/webpack#1.12.9+20160523035535"
   }
 }

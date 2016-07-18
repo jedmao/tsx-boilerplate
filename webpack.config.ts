@@ -1,6 +1,7 @@
+///<reference path="./typings/index.d.ts"/>
 import * as path from 'path';
 const nodeModulesPath = path.resolve(__dirname, 'node_modules');
-const webpack = require('webpack');
+import 'webpack';
 
 export default {
 	entry: {
