@@ -1,21 +1,12 @@
 language: node_js
+
 node_js:
-- "node"
-- "4"
-env:
-  - WEBPACK_CONFIG=webpack.config.js
-install:
-- npm install typescript@next -g
-- npm install typings -g
-- npm install webpack -g
-- npm install
-- npm link typescript
-- typings install
-script:
-- tsc
-- webpack --config $WEBPACK_CONFIG
-- node bundle.js
+  - "node"
+  - "6.9.1"
+
+# env:
+#   - WEBPACK_CONFIG=webpack.config.js
+
 cache:
   directories:
-  - node_modules
-  - typings
+    - node_modules

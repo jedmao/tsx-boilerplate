@@ -1,4 +1,3 @@
-///<reference path="./typings/index.d.ts"/>
 import * as path from 'path';
 const nodeModulesPath = path.resolve(__dirname, 'node_modules');
 import 'webpack';
@@ -27,8 +26,11 @@ export default {
 			},
 			{
 				test: /\.tsx?$/,
-				loader: 'ts-loader',
-				exclude: [/node_modules/, nodeModulesPath]
+				loader: 'ts',
+				exclude: [
+					/node_modules/,
+					nodeModulesPath
+				]
 			}
 		]
 	},

@@ -1,8 +1,9 @@
 import * as express from 'express';
+import { Router } from 'express';
 
 export default function createExpressServer({
 	port = 3000,
-	router
+	router = Router()
 }) {
 	const app = express();
 

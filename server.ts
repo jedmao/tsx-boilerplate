@@ -1,4 +1,3 @@
-///<reference path="./typings/index.d.ts"/>
 import createExpressServer from './server/create-express-server';
 import createRouter from './router';
 
